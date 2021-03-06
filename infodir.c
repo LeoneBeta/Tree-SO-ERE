@@ -107,8 +107,8 @@ int start(){
                             }
                 
 
+            /*
 
-                
             if(sDirent->d_type == DT_DIR && contThread == 1){
                 printf("\nEntrou na thread 1");
             }
@@ -124,6 +124,7 @@ int start(){
             contDir--;
             printf("\nDiretórios restantes: %d",contDir);
             contThread++;       
+            */
         }
     }else{
         perror("");
